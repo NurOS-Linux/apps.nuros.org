@@ -1,0 +1,41 @@
+{
+  "common": {
+    "appName": "Приложения NurOS",
+    "search": "Поиск приложений...",
+    "allCategories": "Все категории",
+    "viewDetails": "Подробнее",
+    "noApps": "Приложения не найдены"
+  },
+  "nav": {
+    "home": "Главная",
+    "about": "О проекте",
+    "categories": "Категории"
+  },
+  "footer": {
+    "sourceCode": "Исходный код",
+    "license": "Лицензия AGPL-3.0",
+    "description": "Каталог приложений для дистрибутива NurOS Linux",
+    "copyright": "Copyright © 2026 AnmiTaliDev"
+  },
+  "app": {
+    "version": "Версия",
+    "license": "Лицензия",
+    "languages": "Языки",
+    "repository": "Исходный код",
+    "maintainer": "Разработчик",
+    "features": "Возможности",
+    "partOf": "Часть",
+    "screenshots": "Скриншоты"
+  },
+  "theme": {
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "system": "Системная",
+    "toggle": "Переключить тему"
+  },
+  "language": {
+    "en": "English",
+    "ru": "Русский",
+    "switch": "Сменить язык"
+  }
+}

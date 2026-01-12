@@ -1,0 +1,41 @@
+{
+  "common": {
+    "appName": "NurOS Apps",
+    "search": "Search applications...",
+    "allCategories": "All Categories",
+    "viewDetails": "View Details",
+    "noApps": "No applications found"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "categories": "Categories"
+  },
+  "footer": {
+    "sourceCode": "View Source Code",
+    "license": "Licensed under AGPL-3.0",
+    "description": "Application catalog for NurOS Linux distribution",
+    "copyright": "Copyright © 2026 AnmiTaliDev"
+  },
+  "app": {
+    "version": "Version",
+    "license": "License",
+    "languages": "Languages",
+    "repository": "Source Code",
+    "maintainer": "Maintainer",
+    "features": "Features",
+    "partOf": "Part of",
+    "screenshots": "Screenshots"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "en": "English",
+    "ru": "Русский",
+    "switch": "Switch language"
+  }
+}
