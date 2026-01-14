@@ -76,7 +76,7 @@ export default async function AppPage({
               {locale === 'en' ? 'Features' : 'Возможности'}
             </h2>
             <ul className="space-y-2">
-              {features.map((feature: string, index: number) => (
+              {features && features.map((feature: string, index: number) => (
                 <li key={index} className="flex items-start gap-3">
                   <svg className="h-6 w-6 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -89,7 +89,7 @@ export default async function AppPage({
         </div>
 
         <div className="space-y-6">
-          {app.screenshots.length > 0 && (
+          {app.screenshots && app.screenshots.length > 0 && (
             <div className="rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800">
               <Image
                 src={app.screenshots[0].path}
@@ -127,7 +127,7 @@ export default async function AppPage({
                 {locale === 'en' ? 'Languages' : 'Языки'}
               </dt>
               <dd className="mt-1 flex flex-wrap gap-2">
-                {app.languages.map((lang) => (
+                {app.languages && app.languages.map((lang) => (
                   <Badge key={lang} variant="category">{lang}</Badge>
                 ))}
               </dd>
@@ -138,7 +138,7 @@ export default async function AppPage({
                 {locale === 'en' ? 'Maintainer' : 'Разработчик'}
               </dt>
               <dd className="mt-1 font-medium">
-                {app.maintainers.map((m) => m.name).join(', ')}
+                {app.maintainers && app.maintainers.map((m) => m.name).join(', ')}
               </dd>
             </div>
 

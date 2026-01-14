@@ -1,0 +1,55 @@
+{
+  "id": "hello",
+  "slug": "hello",
+  "name": {
+    "en": "NurOS Hello",
+    "ru": "NurOS Hello"
+  },
+  "tagline": {
+    "en": "Welcome screen application for NurOS Linux distribution",
+    "ru": "Приложение экрана приветствия для дистрибутива NurOS Linux"
+  },
+  "description": {
+    "en": "NurOS Hello is the welcome screen application for the NurOS Linux distribution, designed to greet users and provide an initial guided experience.",
+    "ru": "NurOS Hello — это приложение экрана приветствия для дистрибутива NurOS Linux, разработанное для встречи пользователей и предоставления первоначального интерактивного опыта."
+  },
+  "category": "system",
+  "screenshots": [
+    {
+      "path": "/images/apps/hello/screenshots/1.png",
+      "alt": {
+        "en": "NurOS Hello main window",
+        "ru": "Главное окно NurOS Hello"
+      }
+    }
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/NurOS-Linux/hello"
+  },
+  "license": "GPL-3.0",
+  "languages": ["C", "Blueprint"],
+  "version": "2.1.0",
+  "maintainers": [
+    {
+      "name": "AnmiTaliDev",
+      "role": "Developer"
+    }
+  ],
+  "features": {
+    "en": [
+      "Modern GTK4 interface with LibAdwaita design",
+      "UI Definition using Blueprint",
+      "Built with Meson build system",
+      "Internationalization with GNU gettext"
+    ],
+    "ru": [
+      "Современный интерфейс GTK4 с дизайном LibAdwaita",
+      "Определение пользовательского интерфейса с помощью Blueprint",
+      "Собрано с использованием системы сборки Meson",
+      "Интернационализация с помощью GNU gettext"
+    ]
+  },
+  "partOf": null,
+  "tags": ["system", "utility", "welcome", "onboarding"]
+}
