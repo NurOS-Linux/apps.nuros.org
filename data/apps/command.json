@@ -1,0 +1,57 @@
+{
+  "id": "command",
+  "slug": "command",
+  "name": {
+    "en": "Aether Command",
+    "ru": "Aether Command"
+  },
+  "tagline": {
+    "en": "A Terminal emulator for AetherDE.",
+    "ru": "Эмулятор терминала для AetherDE."
+  },
+  "description": {
+    "en": "Aether Command is a modern, clean terminal emulator built with Vala, GTK4 and LibAdwaita. Originally designed for AetherDE desktop environment, but works on any Linux distribution with GTK4 support.",
+    "ru": "Aether Command — это современный, чистый эмулятор терминала, созданный с использованием Vala, GTK4 и LibAdwaita. Изначально разработан для рабочего окружения AetherDE, но работает на любой Linux-дистрибутиве с поддержкой GTK4."
+  },
+  "category": "system",
+  "screenshots": [
+    {
+      "path": "/images/apps/command/screenshots/main.png",
+      "alt": {
+        "en": "Aether Command main window",
+        "ru": "Главное окно Aether Command"
+      }
+    }
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/NurOS-Linux/command"
+  },
+  "license": "GPL-3.0",
+  "languages": ["Vala"],
+  "version": "0.1.0-alpha",
+  "maintainers": [
+    {
+      "name": "AnmiTaliDev",
+      "role": "Developer"
+    }
+  ],
+  "features": {
+    "en": [
+      "Clean and intuitive GNOME-integrated interface",
+      "Dynamic window title showing current command or prompt",
+      "Full VTE terminal emulation support",
+      "Lightweight and fast",
+      "Native LibAdwaita design"
+    ],
+    "ru": [
+      "Чистый и интуитивно понятный интерфейс, интегрированный с GNOME",
+      "Динамический заголовок окна, показывающий текущую команду или приглашение",
+      "Полная поддержка эмуляции терминала VTE",
+      "Лёгкий и быстрый",
+      "Родной дизайн LibAdwaita"
+    ]
+  },
+  "partOf": "AetherDE",
+  "tags": ["system", "utility", "terminal"]
+}
