@@ -52,6 +52,6 @@
       "Родной дизайн LibAdwaita"
     ]
   },
-  "partOf": "AetherDE",
+  "partOf":{"en":"AetherDE Desktop Environment","ru":"Окружение рабочего стола AetherDE"},
   "tags": ["system", "utility", "terminal"]
 }
