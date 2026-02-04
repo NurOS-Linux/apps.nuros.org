@@ -99,7 +99,7 @@ a {
 }
 
 a:hover {
-  color: var(--brand-700);
+  color: var(--brand-50); 
 }
 
 /* Layout utilities */
@@ -430,15 +430,25 @@ a:hover {
   color: var(--text-secondary);
   margin-bottom: var(--spacing-3);
   display: -webkit-box;
+  transition: color var(--transition);
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.app-card:hover .app-description {
+  color: var(--brand-500)
 }
 
 .app-badges {
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-2);
+  transition: var(--transition);
+}
+
+.app-card:hover .app-badges {
+  color: var(--brand-500)
 }
 
 /* Utility classes */
